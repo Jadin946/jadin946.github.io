@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description | escape }}">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="{{ '/' | relative_url }}">Research Portfolio<span class="brand-dot">.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="{{ '/#research' | relative_url }}">Research</a>
+      <a href="{{ '/#about' | relative_url }}">About</a>
+      <a href="{{ '/#contact' | relative_url }}">Contact</a>
+    </nav>
+  </header>
+  <main class="container">{{ content }}</main>
+  <footer>© {{ 'now' | date: '%Y' }} · Built with Jekyll and GitHub Pages</footer>
+</body>
+</html>

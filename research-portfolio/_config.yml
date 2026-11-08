@@ -1,0 +1,6 @@
+title: Computer Science Research
+email: ""
+description: Research portfolio focused on AI accountability, machine learning, and data governance.
+markdown: kramdown
+exclude:
+  - README.md
