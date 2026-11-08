@@ -1,6 +1,14 @@
+
 title: Computer Science Research
 email: ""
 description: Research portfolio focused on AI accountability, machine learning, and data governance.
+
 markdown: kramdown
+
+# GitHub Pages configuration
+url: "https://jadin946.github.io"
+baseurl: ""
+
+# Excluded files
 exclude:
   - README.md
